@@ -85,10 +85,10 @@ const ValentineQuestion = () => {
               🥰
             </motion.div>
             <h2 className="text-4xl md:text-6xl font-bold text-gradient-rose">
-              Yaaay! 🎉
+              YAYYAYAYYAYAYYYA 🎉
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground font-script">
-              I knew you'd say yes, Tansu! 💕
+              Ya teba syem 💕
             </p>
             <motion.div
               className="text-6xl mt-4"
