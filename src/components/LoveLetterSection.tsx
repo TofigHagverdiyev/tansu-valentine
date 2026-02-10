@@ -5,6 +5,14 @@ const reasons = [
   "The way you laugh makes everything better 🌸",
   "Every moment with you feels like magic 🦋",
   "You make ordinary days extraordinary 🌹",
+  "Your eyes hold entire galaxies 🌌",
+  "Being near you feels like coming home 🏡",
+  "You're the kindest soul I've ever known 💫",
+  "Your voice is my favorite sound 🎵",
+  "You make my heart skip a beat every single time 💓",
+  "The world is more beautiful because you're in it 🌍",
+  "You inspire me to be a better person every day 🌟",
+  "Your hugs could heal anything 🤗",
 ];
 
 const LoveLetterSection = () => {
@@ -26,7 +34,7 @@ const LoveLetterSection = () => {
             initial={{ opacity: 0, x: i % 2 === 0 ? -50 : 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: i * 0.15 }}
+            transition={{ duration: 0.6, delay: i * 0.1 }}
             className="bg-card/60 backdrop-blur-sm border border-primary/10 rounded-lg p-5 text-center text-foreground/80 text-lg"
           >
             {reason}
