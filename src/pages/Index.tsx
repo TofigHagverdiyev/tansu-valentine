@@ -59,15 +59,6 @@ const Index = () => {
           <ValentineQuestion />
         </motion.div>
 
-        {/* Footer */}
-        <motion.p
-          className="text-muted-foreground/50 text-sm font-script"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
-          Made with 💖 just for you
-        </motion.p>
       </div>
     </div>
   );
